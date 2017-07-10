@@ -1,0 +1,11 @@
+<div class="panel">
+  <div class="panel-list">
+    <ul>
+      <li *ngFor="let currentItem of listItems">Item for sale: {{currentItem.name}}<br/>
+      price: $ {{currentItem.price}}<br/>
+      description: {{currentItem.description}}<br/>
+      <img src="{{currentItem.image}}" alt="" height="400px"><br/>
+      </li>
+    </ul>
+  </div>
+</div>
